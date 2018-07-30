@@ -1,0 +1,6 @@
+AddDefaultCharset UTF-8
+
+#php_value register_globals 0
+#php_value magic_quotes_gpc 0
+#
+#php_value zlib.output_compression 1

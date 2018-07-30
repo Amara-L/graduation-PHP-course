@@ -1,0 +1,117 @@
+body{
+    background-color: #D4D4D4;
+}
+
+a{
+    text-decoration: none;
+    color: #D4D4D4;
+
+}
+
+a:hover{
+    color: #4D4D4D;
+}
+
+a:active{
+    color: red;
+}
+
+header{
+    padding-top: 1em;
+    background-color: #FFFFFF;
+    width: 70%;
+    margin-left: 15%;
+    height: 8em;
+}
+
+header>ul>li{
+    float: left;
+    padding-left: 20%;
+}
+
+section{
+    background-color: #FFFFFF;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+#coment{
+    border: 1px solid black;
+    width: 90%;
+    margin-top: 1.5em;
+    margin-left: 5%;
+    margin-bottom: 1.5em;
+}
+
+#coment>p{
+    width: 90%;
+    margin-left: 4.5%;
+    border: 1px solid black;
+    padding-left: 0.5%;
+    padding-bottom: 1em;
+}
+
+#coment>a{
+    margin-left: 5%;
+
+}
+
+footer{
+    background-color: #FFFFFF;
+    width: 70%;
+margin-left: 15%;
+margin-top: -1em;
+    padding-bottom: 2em;
+}
+
+#block-aut-reg{
+
+}
+
+#blockcome>p{
+    margin-left: 5%;
+}
+
+.pstrnav{
+    height: 30px;
+    clear: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pstrnav li{
+    list-style-type: none;
+    width: 26px;
+    height: 26px;
+    margin-left: 7px;
+    float: left;
+    margin-top: 3px;
+}
+.pstrnav a{
+    display: block;
+    text-decoration: none;
+    font: bold 14px sans-serif;
+    text-align: center;
+    color: black;
+    /*background: url(/images/nav-block-norm.png);*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pstrnav a:hover{
+    /*background: url(/images/nav-block-hover.png);*/
+}
+.pstrnav a:active{
+    /*background: url(/images/nav-block-active.png);*/
+    color: white;
+}
+.pstrnav a.pstr-active{
+    /*background: url(/images/nav-block-active.png);*/
+    color: white;
+}
+.pstrnav p.nav-point{
+    text-align: center;
+    font: bold 14px sans-serif;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
